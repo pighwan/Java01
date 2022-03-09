@@ -6,17 +6,17 @@ public class Ex02_Variable01 {
 		// 변수 와 상수 ( 변하지 않는고정값, 전체 대문자로 표기 )
 		final double PI = 3.141592;
 		// pi= 31415;  // 상수
-		String job = "강사";
-		String name = "엄미현";
-		String 이름 = "가나다라" ; 
+		String job = "프로그래머";
+		String name = "박창환";
+		String 이름 = "꿀꿀이" ; 
 		// 지원은 되지만 권장하지않음 (사용하지 않는것이 좋음)
 		int age;
-		double weight = 45.5 ;
+		double weight = 87.5 ;
 		boolean tf = true ; // true/false
 		String lang = "Java 쪼금/많이" ;
 		age=100;
 		job="Java_Programmer" ;
-		name="홍길동" ;
+		name="창환박" ;
 		
 		System.out.println("~~ 안녕하세요 ~~");
 		System.out.println("* 직업 : "+job); // 문자열 연산(문자열이 이어짐)
