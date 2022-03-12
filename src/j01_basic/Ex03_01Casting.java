@@ -14,7 +14,7 @@ public class Ex03_01Casting {
 		// 1. 프로모션
 		double d = 123.45; // 8byte
 		int i = 123; // 4byte
-		d = i; // 프로모션
+		d = i; // 프로모션(d가 더 큰 자료형이기때문에 자동으로 이루어짐)
 		System.out.println("** 프로모션후 i => "+i);
 		System.out.println("** 프로모션후 d => "+d);
 		
@@ -24,7 +24,7 @@ public class Ex03_01Casting {
 		char c = 'B' ; // 2byte
 		System.out.println("char c => "+c+", "+(int)c);
 		i = c+1 ;  // 프로모션 : B1 아니고 산술연산적용됨
-		System.out.println("int i => "+i+", "+(char)i); 
+		System.out.println("int i => "+i+", "+(char)i);  // 아스키코드 B가 66이었고 여기에 1을 더 했으니 67이 됨
 		// 디모션 ( 4byte -> 2byte , Type Casting 형변환)
 		// Ascii 코드표 를 검색 해 보세요 ~~
 		
@@ -32,7 +32,7 @@ public class Ex03_01Casting {
 		int n = 100; // 4byte		
 		//n=f ; // Type mismatch -> 디모션(형변환)이 필요함
 		n=(int)f ;
-		System.out.println("int n => "+n); // n=123
+		System.out.println("int n => "+n); // n=123 int는 정수이므로 
 		f=n;
 		System.out.println("float f => "+f); // f=123.0; 
 		
@@ -46,6 +46,7 @@ public class Ex03_01Casting {
 		// 4.1) 정수형
 		// => 컴파일 오류 없음
 		//    실행(런타임)오류 : java.lang.ArithmeticException: / by zero
+		// 참고로 현재 n은 123
 		System.out.println("** 정수형 by 0 Test1 나누기 연산 => "+(n/10)); 
 		System.out.println("** 정수형 by 0 Test2 나머지 연산 => "+(n%10));
 		
