@@ -22,8 +22,8 @@ public class Ex03_02OctHexBin {
 		
 		// => Integer to String
 		//    문자열 연산에 연결되면 문자로 취급됨
-		System.out.println("Integer to String 1 => "+bin+oct+hex);
-		System.out.println("Integer to String 2 => "+(bin+oct+hex));
+		System.out.println("Integer to String 1 => "+bin+oct+hex); // 151515
+		System.out.println("Integer to String 2 => "+(bin+oct+hex)); //(15+15+15)
 		
 		// => String to Integer
 		String s = "12345" ;
@@ -39,6 +39,8 @@ public class Ex03_02OctHexBin {
 		s="123.ABCD";
 		//System.out.println("String to Double 2 => "+(Double.parseDouble(s)+10));
 		// java.lang.NumberFormatException: For input string: "123.ABCD"
+		
+		// 형변환을 해서 계산할 수 있는 것은 이해했는데, 위의 bin, oct, hex에 대해서는 좀더 공부가 필요할 듯
 		
 	} //main
 
