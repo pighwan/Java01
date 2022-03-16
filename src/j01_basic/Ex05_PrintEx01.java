@@ -10,26 +10,35 @@ public class Ex05_PrintEx01 {
 		// => \n 줄바꿈, \t 탭간격, ...
 		System.out.println('\'');
 		System.out.println("\'A\'");
+		// '' 혹은 "" 안에 '를 사용할때는 \를 앞에 써주면 됨!
 		System.out.println("abc\t123\b456");
 		System.out.println('\n');
 		System.out.println("\"Hello!!!\"");
 		System.out.println("c:\\Java\\myWork");  // c:\Java\
+		// 우리 프로젝트할 때 경로 생각하면됨
 		
 		// ** print, printf, println
 		System.out.print("** print1 : 줄바꿈이 없어요 ~~\n");
+		// 줄바꿈을 해야할 경우 줄 끝에 \n을 넣어줌
 		System.out.print(" print2 \t");
+		// 줄바꿈이 없으므로 \t를 써주면 그 줄에서 탭이 됨
 		System.out.print(" print3 \t");
 		System.out.print(" print4 ");
-		System.out.println("");
+		System.out.println("바보");
+		// 위의 print가 줄바꿈이 없으므로 바보가 그대로 출력 후 여기서는 println을 썼으므로 줄바꿈이 됨 
 		System.out.println("** 줄바꿈이 있어요 ");
 		
 		System.out.printf("금액1 : %d원\n", 123); 
 		System.out.printf("금액2 : %6d원\n", 123); 
+		// 6칸에 내용이 우측 정렬
 		System.out.printf("금액3 : %-6d원\n", 123); 
+		// 6칸에 내용이 좌측 정렬
 		System.out.printf("금액4 : %06d원\n", 123); 
+		// 6칸에 내용이 우측 정렬인데 빈칸을 0으로 채움
 		System.out.printf("반지름이 %d 인 원의 넓이 : %10.2f\n",10,Math.PI*10*10); 
+		// 10칸이고 소수점이 두자리
 		System.out.printf("%6s은 %6d학년 %10s 입니다.%n", "홍길동", 1, "학생"); 
-		
+		// 위의 내용 그대로 다 각 자리수의 우측 정렬
 		Date now = new Date() ;
 		System.out.printf("오늘은 %tY년 %tm월 %td일 입니다.%n", now, now, now); 
 		System.out.printf("오늘은 %1$tY년 %1$tm월 %1$td일 입니다.%n", now); 
@@ -53,6 +62,7 @@ public class Ex05_PrintEx01 {
 		int binNum = 0b10 ; // 2진수 => 2 
 		
 		System.out.printf("c=%c, %d %n", c, (int)c);
+		// 한 글자, 정수(int로 형변환) 출력. 아스키코드로 B는 66
 		System.out.printf("finger=[%5d]%n",  finger);
 		System.out.printf("finger=[%-5d]%n", finger);
 		System.out.printf("finger=[%05d]%n", finger);
@@ -64,7 +74,7 @@ public class Ex05_PrintEx01 {
 		int f = Float.SIZE ;  // 단위 bit 
 		System.out.printf("Float.SIZE=%d%n", f);
 		
-		// -는 왼쪽 정렬방식
+		// -는 왼쪽 정렬방식. 따라서 맨 우측의 숫자만 왼쪽 정렬, 나머지는 우측 정렬
 		System.out.printf("%3d %10s %8s %-5d%n",1,"jang","장희정",20);
 		System.out.printf("%3d %10s %8s %-5d%n",22,"hee","정효욱",03);
 		System.out.printf("%3d %10s %8s %-5d%n",3,"rew97","장정희",20);
