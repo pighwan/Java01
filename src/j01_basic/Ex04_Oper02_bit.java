@@ -1,7 +1,7 @@
 package j01_basic;
 
-//** bit 연산
-//=> 쉬프트 연산 , 논리 연산
+// ** bit 연산
+// => 쉬프트 연산 , 논리 연산
 public class Ex04_Oper02_bit {
 
 	public static void main(String[] args) {

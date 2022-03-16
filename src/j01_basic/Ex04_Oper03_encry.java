@@ -14,5 +14,8 @@ public class Ex04_Oper03_encry {
 		// Decryption
 		t=t^e;
 		System.out.println(" ** 복호화 된 Password => "+t);
+		
+		// XOR은 좀더 찾아보고 공부해봐야할 것 같음.
+		
 	} //main
 } // class
