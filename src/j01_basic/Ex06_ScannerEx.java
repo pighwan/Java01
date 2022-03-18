@@ -35,6 +35,8 @@ public class Ex06_ScannerEx {
 		System.out.println("** 이름 : "+name);
 		System.out.println("** 점수 : "+score);
 		sc.close();
+		
+		// 이름과 점수를 입력하는 하나의 클라스.
 	} //main
 
 } //class
