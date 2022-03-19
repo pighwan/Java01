@@ -11,7 +11,7 @@ public class IfEx01 {
 		int a=100, b=60;
 		int max = (a>b) ? a : b ;
 		if (a>b) max = a;
-		else max = b;
+		else max = b; // a > b 면 max는 a, 아니면 max는 b
 		
 		boolean bool = (a>b) ? true : false ;
 		if (a>b) System.out.println("A 는 B 보다 크다 => true");
@@ -25,7 +25,7 @@ public class IfEx01 {
 		if ( c=='참') System.out.println("c 는 참 입니다 ~~");
 		String t="참" ;
 		if ( t.equals("참")) System.out.println("t 는 참 입니다 ~~");
-		
+				
 		// => a 와 b 의 값이 같으면 (a+b) 결과를 출력한다 
 		b=100;
 		if (a==b) System.out.println("a+b => "+(a+b));
@@ -37,7 +37,7 @@ public class IfEx01 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("** 근무시간을 입력 하세요 => ");
 		//int hours = sc.nextInt(); 
-		int hours = Integer.parseInt(sc.nextLine());    
+		int hours = Integer.parseInt(sc.nextLine());  // int로 형변환  
 		double pay = 0;
 //		if (hours < 6)
 //			 pay = hours*10000;
