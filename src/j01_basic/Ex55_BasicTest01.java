@@ -24,5 +24,7 @@ public class Ex55_BasicTest01 {
 		System.out.println("** 나이 => "+age);
 		System.out.println("** 나의 밥값 => "+result);
 		sc.close();
+		
+		// 이름과 나이를 입력하면 내가 그동안 먹은 밥값을 계산해주는 하나의 클라스
 	} //main
 } //class
