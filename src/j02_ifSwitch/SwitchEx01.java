@@ -35,13 +35,14 @@ public class SwitchEx01 {
 		} // switch
 		
 		// ** char Type Test
-		String color = "W" ;
+		String color = "R" ;
 		switch(color) {
 		case "B" : System.out.println("** Black **"); break;
 		case "W" : System.out.println("** White **"); break;
 		case "R" : System.out.println("** Red **"); break;
 		default: System.out.println("** Green **");
 		} // switch
-
+		
+		// 변수 수정해서 확인해봄
 	} //main
 } //class
