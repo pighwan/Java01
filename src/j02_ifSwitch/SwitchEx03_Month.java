@@ -67,6 +67,8 @@ public class SwitchEx03_Month {
 			default: mtoS="1~12월 벗어난 달입니다. "; break;
 		}//switch end
 		System.out.println( month +"월은 " + mtoS );  
-
+		
+		// 변수 수정해보면서 복습. 학원에서 공부할때 생각남 ㅎㅎ 재밌음!!
+		
 	} //main
 } //class
