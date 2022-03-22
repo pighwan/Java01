@@ -2,6 +2,7 @@ package j03_forWhile;
 
 //** 반복문 의 3요소 : 반복자의 초기값, 조건식(true or false), 증감식
 //=> while, do while : 초기값(before while), 조건식(true or false => while 조건문), 증감식(in while) 		
+//   여기서 do while은 무조건 한번은 하는 특성이 있음
 //=> for : for(초기값; 조건식; 증감식)	
 
 //** 반복자(iterator) 
@@ -21,6 +22,7 @@ public class Ex01_LoopBasic {
 		int i = 0;
 		// for (int i=1; i<=100; i++) { => i 는 for 구문의 지역변수
 		for (i=100; i>0; i--) { // => i 의 적용범위는 main 메서드  
+			// i는 100에서 시작해서 i가 0보다 클때까지만 실행, i는 계속 감소
 			result += i ;
 		} //for
 		System.out.println("** For result1 => "+result);
@@ -35,6 +37,7 @@ public class Ex01_LoopBasic {
 		for (i=1; i<=100; i++) {  
 			// if 문으로 i가 홀수인 경우만 계산하도록
 			if ( i%2==1) result += i ;
+			// i를 2로 나누었을때의 나머지가 홀수
 		} //for
 		System.out.println("** For 홀수의합 1 => "+result);
 		
