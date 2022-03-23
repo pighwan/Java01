@@ -49,6 +49,8 @@ public class Ex03_RandomGame {
 		default: System.out.println(" 완전 꽝꽝꽝 !!! 더이상 기회 없어요!!!");
 		} //switch 
 		System.out.println(" R => "+r);
-
+		
+		// ifSwitch에서 했던 랜덤게임 확장판
+		
 	} // main
 } //class
