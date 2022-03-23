@@ -41,6 +41,7 @@ public class Ex02_MultiLoop {
 		} // for_i
 		System.out.println("** Test2) 줄넘기합계 => "+tot);
 		
+		// for 중첩 햇갈리면 구구단 떠올리기
 		
 	} //main
 
