@@ -28,4 +28,6 @@ public class Ex05_InfinityLoop {
 		System.out.println("** Program Stop **");
 	} //main
 
+	//for(;;), while, do while 비교
+	
 } //class
