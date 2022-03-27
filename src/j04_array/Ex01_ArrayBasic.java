@@ -63,5 +63,7 @@ public class Ex01_ArrayBasic {
 		System.out.println("Score2, avg => "+(sum/score2.length));
 		
 	} // main
-
+	
+	// 복습완료
+	
 } //class
