@@ -36,4 +36,6 @@ public class Ex02_ArrayType {
 //		System.out.println("");
 		System.out.println("* String => "+Arrays.toString(city));
 	} //main
+	
+	// 배열 타입 복습완료
 } //class
