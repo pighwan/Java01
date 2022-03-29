@@ -36,5 +36,6 @@ public class Ex03_MultiArray {
 			}
 		}
 		
+		// 명시적 선언과 묵시적 선언의 차이 확인
 	} //main
 } //class
