@@ -45,5 +45,7 @@ public class Ex04_Lotto01 {
 		// 5) 오름차순 정렬 출력하기 => Ex04_Lotto02.java
 
 	} //main
-
+	
+	// 반복문을 이용한 배열
+	
 } //class
