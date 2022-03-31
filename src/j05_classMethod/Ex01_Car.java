@@ -47,4 +47,6 @@ public class Ex01_Car {
 	public String toString2() { // 객체의 상태를 문자열로 반환하는 메소드
 		return "속도: " + speed + " 주행거리: " + mileage + " 색상: " + color;
 	}
+	
+	// 클래스와 인스턴스 복습
 } //class
