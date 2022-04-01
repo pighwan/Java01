@@ -40,4 +40,6 @@ public class Ex01_CarUse {
 					+myCar.color+" , uCar.color => "+uCar.color);
 		
 	} //main
+	
+	// 인스턴스 사용하기 복습
 } //class
