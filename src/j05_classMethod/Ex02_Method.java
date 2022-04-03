@@ -83,4 +83,6 @@ public class Ex02_Method {
 		System.out.println(" after color => "+myCar.color);  // Black
 		
 	} //main
+	
+	// method 복습
 } //class
