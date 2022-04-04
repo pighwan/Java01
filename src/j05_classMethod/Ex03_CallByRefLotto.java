@@ -57,4 +57,7 @@ public class Ex03_CallByRefLotto {
 		ex03.mySort(lotto,'D');
 		System.out.println("** 내림차순 정렬후 Lotto => "+Arrays.toString(lotto));
 	} //main
+	
+	// 오름차순, 내림차순, 랜덤 복습
+	
 } //class
