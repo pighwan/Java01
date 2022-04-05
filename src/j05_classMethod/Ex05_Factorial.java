@@ -21,4 +21,7 @@ public class Ex05_Factorial {
 		System.out.println("** 5! => " +factorial(5));  // 120
 
 	} //main
+	
+	// 인스턴스 관련
+	
 } //class
