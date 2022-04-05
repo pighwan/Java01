@@ -87,5 +87,7 @@ public class Ex04_Constructor {
 		}
 		
 	} //main
-
+	
+	// 생성자 복습
+	
 } //class
