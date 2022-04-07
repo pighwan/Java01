@@ -86,5 +86,7 @@ public class Ex06_Static {
 		//System.out.println("* s static min => "+s.div(5, 2, new Ex06_Static()));
 		
 	} //main
-
+	
+	// static 관련 복습
+	
 } //class
