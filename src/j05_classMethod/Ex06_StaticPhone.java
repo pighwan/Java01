@@ -34,4 +34,6 @@ public class Ex06_StaticPhone {
 		// => private 으로 정의된 price 는 외부 클래스에서는 무조건 접근불가능
 
 	} // main
+	
+	// 다양한 접근법 복습
 } // class
