@@ -65,4 +65,7 @@ public class Ex08_Member {
 	public String toString() {
 		return "Member [id=" + id + ", password=" + password + ", name=" + name + ", point=" + point + "]";
 	}
+	
+	// getter/setter/Override 복습
+	
 } //class
