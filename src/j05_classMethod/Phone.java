@@ -36,4 +36,6 @@ public class Phone {
 		return "Phone [company="+company+", modelNo="+modelNo+", price="+price+"]";
 	}
 	
+	// classMethod 종합 복습
+	
 } // class
