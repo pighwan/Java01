@@ -25,5 +25,7 @@ public class Ex01_PhoneAccess {
 		// => public 로 정의된 인스턴스 맴버만 표시되고 접근가능함 
 		
 	} //main
-
+	
+	// 접근 관련 복습
+	
 } //class
