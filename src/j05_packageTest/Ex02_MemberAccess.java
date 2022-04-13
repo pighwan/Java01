@@ -43,4 +43,7 @@ public class Ex02_MemberAccess {
 		System.out.println("** age => "+age);
 	
 	} //main
+	
+	// 생성자, 초기화, 세터 복습
+	
 } //class
